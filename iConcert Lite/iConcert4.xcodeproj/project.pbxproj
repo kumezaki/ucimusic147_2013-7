@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2318C310175D5B7200F308F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2318C30F175D5B7200F308F6 /* UIKit.framework */; };
+		2318C312175D5B7200F308F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2318C311175D5B7200F308F6 /* Foundation.framework */; };
+		2318C314175D5B7200F308F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2318C313175D5B7200F308F6 /* CoreGraphics.framework */; };
+		2318C31A175D5B7200F308F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2318C318175D5B7200F308F6 /* InfoPlist.strings */; };
+		2318C31C175D5B7200F308F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C31B175D5B7200F308F6 /* main.m */; };
+		2318C320175D5B7200F308F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C31F175D5B7200F308F6 /* AppDelegate.m */; };
+		2318C323175D5B7200F308F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C322175D5B7200F308F6 /* ViewController.m */; };
+		2318C326175D5B7200F308F6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2318C324175D5B7200F308F6 /* ViewController.xib */; };
+		2318C34F175D5C7300F308F6 /* AQPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C32D175D5C7300F308F6 /* AQPlayer.m */; };
+		2318C350175D5C7300F308F6 /* Effect_Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C32F175D5C7300F308F6 /* Effect_Delay.m */; };
+		2318C351175D5C7300F308F6 /* Effect_Limiter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C331175D5C7300F308F6 /* Effect_Limiter.m */; };
+		2318C352175D5C7300F308F6 /* Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C333175D5C7300F308F6 /* Effect.m */; };
+		2318C355175D5C7300F308F6 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C33A175D5C7300F308F6 /* Event.m */; };
+		2318C356175D5C7300F308F6 /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C33C175D5C7300F308F6 /* Globals.m */; };
+		2318C357175D5C7300F308F6 /* Sequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C33E175D5C7300F308F6 /* Sequence.m */; };
+		2318C358175D5C7300F308F6 /* Sequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C340175D5C7300F308F6 /* Sequencer.m */; };
+		2318C359175D5C7300F308F6 /* Voice_BLIT.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C342175D5C7300F308F6 /* Voice_BLIT.m */; };
+		2318C35A175D5C7300F308F6 /* Voice_BLITSaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C344175D5C7300F308F6 /* Voice_BLITSaw.m */; };
+		2318C35B175D5C7300F308F6 /* Voice_Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C346175D5C7300F308F6 /* Voice_Line.m */; };
+		2318C35C175D5C7300F308F6 /* Voice_Linear.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C348175D5C7300F308F6 /* Voice_Linear.m */; };
+		2318C35D175D5C7300F308F6 /* Voice_Sample.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C34A175D5C7300F308F6 /* Voice_Sample.m */; };
+		2318C35E175D5C7300F308F6 /* Voice_Synth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C34C175D5C7300F308F6 /* Voice_Synth.m */; };
+		2318C35F175D5C7300F308F6 /* Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318C34E175D5C7300F308F6 /* Voice.m */; };
+		2318C361175D5C7E00F308F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2318C360175D5C7E00F308F6 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2318C30B175D5B7200F308F6 /* iConcert4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iConcert4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318C30F175D5B7200F308F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2318C311175D5B7200F308F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2318C313175D5B7200F308F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2318C317175D5B7200F308F6 /* iConcert4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iConcert4-Info.plist"; sourceTree = "<group>"; };
+		2318C319175D5B7200F308F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2318C31B175D5B7200F308F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2318C31D175D5B7200F308F6 /* iConcert4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iConcert4-Prefix.pch"; sourceTree = "<group>"; };
+		2318C31E175D5B7200F308F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2318C31F175D5B7200F308F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2318C321175D5B7200F308F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2318C322175D5B7200F308F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2318C325175D5B7200F308F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2318C32C175D5C7300F308F6 /* AQPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQPlayer.h; path = iConcert4/AQPlayer.h; sourceTree = "<group>"; };
+		2318C32D175D5C7300F308F6 /* AQPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AQPlayer.m; path = iConcert4/AQPlayer.m; sourceTree = "<group>"; };
+		2318C32E175D5C7300F308F6 /* Effect_Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Effect_Delay.h; path = iConcert4/Effect_Delay.h; sourceTree = "<group>"; };
+		2318C32F175D5C7300F308F6 /* Effect_Delay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Effect_Delay.m; path = iConcert4/Effect_Delay.m; sourceTree = "<group>"; };
+		2318C330175D5C7300F308F6 /* Effect_Limiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Effect_Limiter.h; path = iConcert4/Effect_Limiter.h; sourceTree = "<group>"; };
+		2318C331175D5C7300F308F6 /* Effect_Limiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Effect_Limiter.m; path = iConcert4/Effect_Limiter.m; sourceTree = "<group>"; };
+		2318C332175D5C7300F308F6 /* Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Effect.h; path = iConcert4/Effect.h; sourceTree = "<group>"; };
+		2318C333175D5C7300F308F6 /* Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Effect.m; path = iConcert4/Effect.m; sourceTree = "<group>"; };
+		2318C339175D5C7300F308F6 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = iConcert4/Event.h; sourceTree = "<group>"; };
+		2318C33A175D5C7300F308F6 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = iConcert4/Event.m; sourceTree = "<group>"; };
+		2318C33B175D5C7300F308F6 /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Globals.h; path = iConcert4/Globals.h; sourceTree = "<group>"; };
+		2318C33C175D5C7300F308F6 /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Globals.m; path = iConcert4/Globals.m; sourceTree = "<group>"; };
+		2318C33D175D5C7300F308F6 /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sequence.h; path = iConcert4/Sequence.h; sourceTree = "<group>"; };
+		2318C33E175D5C7300F308F6 /* Sequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sequence.m; path = iConcert4/Sequence.m; sourceTree = "<group>"; };
+		2318C33F175D5C7300F308F6 /* Sequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sequencer.h; path = iConcert4/Sequencer.h; sourceTree = "<group>"; };
+		2318C340175D5C7300F308F6 /* Sequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Sequencer.m; path = iConcert4/Sequencer.m; sourceTree = "<group>"; };
+		2318C341175D5C7300F308F6 /* Voice_BLIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice_BLIT.h; path = iConcert4/Voice_BLIT.h; sourceTree = "<group>"; };
+		2318C342175D5C7300F308F6 /* Voice_BLIT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice_BLIT.m; path = iConcert4/Voice_BLIT.m; sourceTree = "<group>"; };
+		2318C343175D5C7300F308F6 /* Voice_BLITSaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice_BLITSaw.h; path = iConcert4/Voice_BLITSaw.h; sourceTree = "<group>"; };
+		2318C344175D5C7300F308F6 /* Voice_BLITSaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice_BLITSaw.m; path = iConcert4/Voice_BLITSaw.m; sourceTree = "<group>"; };
+		2318C345175D5C7300F308F6 /* Voice_Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice_Line.h; path = iConcert4/Voice_Line.h; sourceTree = "<group>"; };
+		2318C346175D5C7300F308F6 /* Voice_Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice_Line.m; path = iConcert4/Voice_Line.m; sourceTree = "<group>"; };
+		2318C347175D5C7300F308F6 /* Voice_Linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice_Linear.h; path = iConcert4/Voice_Linear.h; sourceTree = "<group>"; };
+		2318C348175D5C7300F308F6 /* Voice_Linear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice_Linear.m; path = iConcert4/Voice_Linear.m; sourceTree = "<group>"; };
+		2318C349175D5C7300F308F6 /* Voice_Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice_Sample.h; path = iConcert4/Voice_Sample.h; sourceTree = "<group>"; };
+		2318C34A175D5C7300F308F6 /* Voice_Sample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice_Sample.m; path = iConcert4/Voice_Sample.m; sourceTree = "<group>"; };
+		2318C34B175D5C7300F308F6 /* Voice_Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice_Synth.h; path = iConcert4/Voice_Synth.h; sourceTree = "<group>"; };
+		2318C34C175D5C7300F308F6 /* Voice_Synth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice_Synth.m; path = iConcert4/Voice_Synth.m; sourceTree = "<group>"; };
+		2318C34D175D5C7300F308F6 /* Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice.h; path = iConcert4/Voice.h; sourceTree = "<group>"; };
+		2318C34E175D5C7300F308F6 /* Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Voice.m; path = iConcert4/Voice.m; sourceTree = "<group>"; };
+		2318C360175D5C7E00F308F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2318C308175D5B7200F308F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318C361175D5C7E00F308F6 /* AudioToolbox.framework in Frameworks */,
+				2318C310175D5B7200F308F6 /* UIKit.framework in Frameworks */,
+				2318C312175D5B7200F308F6 /* Foundation.framework in Frameworks */,
+				2318C314175D5B7200F308F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2318C300175D5B7200F308F6 = {
+			isa = PBXGroup;
+			children = (
+				2318C360175D5C7E00F308F6 /* AudioToolbox.framework */,
+				2318C32C175D5C7300F308F6 /* AQPlayer.h */,
+				2318C32D175D5C7300F308F6 /* AQPlayer.m */,
+				2318C32E175D5C7300F308F6 /* Effect_Delay.h */,
+				2318C32F175D5C7300F308F6 /* Effect_Delay.m */,
+				2318C330175D5C7300F308F6 /* Effect_Limiter.h */,
+				2318C331175D5C7300F308F6 /* Effect_Limiter.m */,
+				2318C332175D5C7300F308F6 /* Effect.h */,
+				2318C333175D5C7300F308F6 /* Effect.m */,
+				2318C339175D5C7300F308F6 /* Event.h */,
+				2318C33A175D5C7300F308F6 /* Event.m */,
+				2318C33B175D5C7300F308F6 /* Globals.h */,
+				2318C33C175D5C7300F308F6 /* Globals.m */,
+				2318C33D175D5C7300F308F6 /* Sequence.h */,
+				2318C33E175D5C7300F308F6 /* Sequence.m */,
+				2318C33F175D5C7300F308F6 /* Sequencer.h */,
+				2318C340175D5C7300F308F6 /* Sequencer.m */,
+				2318C341175D5C7300F308F6 /* Voice_BLIT.h */,
+				2318C342175D5C7300F308F6 /* Voice_BLIT.m */,
+				2318C343175D5C7300F308F6 /* Voice_BLITSaw.h */,
+				2318C344175D5C7300F308F6 /* Voice_BLITSaw.m */,
+				2318C345175D5C7300F308F6 /* Voice_Line.h */,
+				2318C346175D5C7300F308F6 /* Voice_Line.m */,
+				2318C347175D5C7300F308F6 /* Voice_Linear.h */,
+				2318C348175D5C7300F308F6 /* Voice_Linear.m */,
+				2318C349175D5C7300F308F6 /* Voice_Sample.h */,
+				2318C34A175D5C7300F308F6 /* Voice_Sample.m */,
+				2318C34B175D5C7300F308F6 /* Voice_Synth.h */,
+				2318C34C175D5C7300F308F6 /* Voice_Synth.m */,
+				2318C34D175D5C7300F308F6 /* Voice.h */,
+				2318C34E175D5C7300F308F6 /* Voice.m */,
+				2318C315175D5B7200F308F6 /* iConcert4 */,
+				2318C30E175D5B7200F308F6 /* Frameworks */,
+				2318C30C175D5B7200F308F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2318C30C175D5B7200F308F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2318C30B175D5B7200F308F6 /* iConcert4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2318C30E175D5B7200F308F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2318C30F175D5B7200F308F6 /* UIKit.framework */,
+				2318C311175D5B7200F308F6 /* Foundation.framework */,
+				2318C313175D5B7200F308F6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2318C315175D5B7200F308F6 /* iConcert4 */ = {
+			isa = PBXGroup;
+			children = (
+				2318C31E175D5B7200F308F6 /* AppDelegate.h */,
+				2318C31F175D5B7200F308F6 /* AppDelegate.m */,
+				2318C321175D5B7200F308F6 /* ViewController.h */,
+				2318C322175D5B7200F308F6 /* ViewController.m */,
+				2318C324175D5B7200F308F6 /* ViewController.xib */,
+				2318C316175D5B7200F308F6 /* Supporting Files */,
+			);
+			path = iConcert4;
+			sourceTree = "<group>";
+		};
+		2318C316175D5B7200F308F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2318C317175D5B7200F308F6 /* iConcert4-Info.plist */,
+				2318C318175D5B7200F308F6 /* InfoPlist.strings */,
+				2318C31B175D5B7200F308F6 /* main.m */,
+				2318C31D175D5B7200F308F6 /* iConcert4-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2318C30A175D5B7200F308F6 /* iConcert4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318C329175D5B7200F308F6 /* Build configuration list for PBXNativeTarget "iConcert4" */;
+			buildPhases = (
+				2318C307175D5B7200F308F6 /* Sources */,
+				2318C308175D5B7200F308F6 /* Frameworks */,
+				2318C309175D5B7200F308F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iConcert4;
+			productName = iConcert4;
+			productReference = 2318C30B175D5B7200F308F6 /* iConcert4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2318C302175D5B7200F308F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2318C305175D5B7200F308F6 /* Build configuration list for PBXProject "iConcert4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2318C300175D5B7200F308F6;
+			productRefGroup = 2318C30C175D5B7200F308F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2318C30A175D5B7200F308F6 /* iConcert4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2318C309175D5B7200F308F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318C31A175D5B7200F308F6 /* InfoPlist.strings in Resources */,
+				2318C326175D5B7200F308F6 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2318C307175D5B7200F308F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318C31C175D5B7200F308F6 /* main.m in Sources */,
+				2318C320175D5B7200F308F6 /* AppDelegate.m in Sources */,
+				2318C323175D5B7200F308F6 /* ViewController.m in Sources */,
+				2318C34F175D5C7300F308F6 /* AQPlayer.m in Sources */,
+				2318C350175D5C7300F308F6 /* Effect_Delay.m in Sources */,
+				2318C351175D5C7300F308F6 /* Effect_Limiter.m in Sources */,
+				2318C352175D5C7300F308F6 /* Effect.m in Sources */,
+				2318C355175D5C7300F308F6 /* Event.m in Sources */,
+				2318C356175D5C7300F308F6 /* Globals.m in Sources */,
+				2318C357175D5C7300F308F6 /* Sequence.m in Sources */,
+				2318C358175D5C7300F308F6 /* Sequencer.m in Sources */,
+				2318C359175D5C7300F308F6 /* Voice_BLIT.m in Sources */,
+				2318C35A175D5C7300F308F6 /* Voice_BLITSaw.m in Sources */,
+				2318C35B175D5C7300F308F6 /* Voice_Line.m in Sources */,
+				2318C35C175D5C7300F308F6 /* Voice_Linear.m in Sources */,
+				2318C35D175D5C7300F308F6 /* Voice_Sample.m in Sources */,
+				2318C35E175D5C7300F308F6 /* Voice_Synth.m in Sources */,
+				2318C35F175D5C7300F308F6 /* Voice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2318C318175D5B7200F308F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2318C319175D5B7200F308F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2318C324175D5B7200F308F6 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2318C325175D5B7200F308F6 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2318C327175D5B7200F308F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2318C328175D5B7200F308F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2318C32A175D5B7200F308F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iConcert4/iConcert4-Prefix.pch";
+				INFOPLIST_FILE = "iConcert4/iConcert4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2318C32B175D5B7200F308F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iConcert4/iConcert4-Prefix.pch";
+				INFOPLIST_FILE = "iConcert4/iConcert4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2318C305175D5B7200F308F6 /* Build configuration list for PBXProject "iConcert4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318C327175D5B7200F308F6 /* Debug */,
+				2318C328175D5B7200F308F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318C329175D5B7200F308F6 /* Build configuration list for PBXNativeTarget "iConcert4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318C32A175D5B7200F308F6 /* Debug */,
+				2318C32B175D5B7200F308F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2318C302175D5B7200F308F6 /* Project object */;
+}
