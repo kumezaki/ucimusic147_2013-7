@@ -10,14 +10,14 @@
 #import "Globals.h"
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UISegmentedControl *selectScale;
-@property (weak, nonatomic) IBOutlet UIButton *buttonE3;
-@property (weak, nonatomic) IBOutlet UIButton *buttonA4;
-@property (weak, nonatomic) IBOutlet UIButton *buttonB4;
-@property (weak, nonatomic) IBOutlet UIButton *buttonE4;
-@property (weak, nonatomic) IBOutlet UIButton *buttonA5;
-@property (weak, nonatomic) IBOutlet UIButton *buttonB5;
-@property (weak, nonatomic) IBOutlet UIButton *limitButt;
+@property (retain, nonatomic) IBOutlet UISegmentedControl *selectScale;
+@property (retain, nonatomic) IBOutlet UIButton *buttonE3;
+@property (retain, nonatomic) IBOutlet UIButton *buttonA4;
+@property (retain, nonatomic) IBOutlet UIButton *buttonB4;
+@property (retain, nonatomic) IBOutlet UIButton *buttonE4;
+@property (retain, nonatomic) IBOutlet UIButton *buttonA5;
+@property (retain, nonatomic) IBOutlet UIButton *buttonB5;
+@property (retain, nonatomic) IBOutlet UIButton *limitButt;
 
 - (IBAction)button1:(id)sender;
 - (IBAction)button2:(id)sender;
@@ -38,8 +38,8 @@
 -(IBAction)toggleDelay:(id)sender;
 -(IBAction)toggleLimit:(id)sender;
 - (IBAction)changeSegment:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *delayButt;
-@property (weak, nonatomic) IBOutlet UISlider *volumeSlide;
+@property (retain, nonatomic) IBOutlet UIButton *delayButt;
+@property (retain , nonatomic) IBOutlet UISlider *volumeSlide;
 -(IBAction)changeVol:(id)sender;
 
 @end
